@@ -1,3 +1,1 @@
-print("haciabi")
-print ("sonraki version")
-print("heyt bee")
+print('My first python job which is run within Jenkinsfile.')

@@ -7,6 +7,12 @@ pipeline {
                 sh 'javac pipeline/Hello.java'
             }
         }
+         stage('run') {
+            steps {
+                echo 'Running the compiled java code.'
+                sh 'java Hello'
+            }
+        }
        
     }
 }
